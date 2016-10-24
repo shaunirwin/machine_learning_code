@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 import pandas as pd
 
 from tensorflow.examples.tutorials.mnist import input_data
-mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
+mnist = input_data.read_data_sets("datasets/MNIST_data/", one_hot=True)
 
 
 # Create 100 phony x, y data points in NumPy, y = x * 0.1 + 0.3
